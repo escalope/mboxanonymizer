@@ -18,7 +18,14 @@ The python program does a partial anonymization of an inbox as follows:
 - removing twitter ids or any other missed email with "\w*@\w*"
 - the only headers maintained are the following: 'to', 'from', 'message-id', 'in-reply-to', 'mime-version', 'content-type','content-transfer-encoding', 'encode',  'date','title'
 
+Acknowledgements
+================
 
+To check the regular expressions, it was used https://regex101.com/
+
+The work was made within the DColbici3 - Colaborate Design for the wellbeing in smart inclusive cities
+
+http://grasiagroup.fdi.ucm.es/inclusivecities/
 
 Dependencies
 ============
